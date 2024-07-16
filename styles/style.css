@@ -87,7 +87,7 @@ header{
 .banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding: 50px 0;
     justify-content: space-between;
@@ -110,7 +110,7 @@ header{
 }
 .banner-heading p{
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .banner-image{
     background-image: url(../images/Circle\ design.svg);
@@ -120,3 +120,17 @@ header{
 }
 
 /* banner style end */
+/* company style start */
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 40px 30px;
+    flex-wrap: wrap;
+}
+
+/* company style end */
