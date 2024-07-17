@@ -39,14 +39,17 @@
     font-weight: 900;
     font-style: normal;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --primary-color: #3A3A3A;
 }
+
 /* shared styles start */
 
 
@@ -55,25 +58,29 @@
 /* header style start */
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     max-width: 90%;
     margin: 0 auto;
     padding: 20px 0;
 }
-.brand h3{
+
+.brand h3 {
     font-size: 1.5rem;
     color: var(--primary-color);
 }
-.navigation ul{
+
+.navigation ul {
     display: flex;
     gap: 34px;
 }
-.navigation ul li{
+
+.navigation ul li {
     list-style-type: none;
 }
-.navigation ul li a{
+
+.navigation ul li a {
     text-decoration: none;
     color: var(--primary-color);
     font-size: 1rem;
@@ -84,7 +91,7 @@ header{
 /* banner style start */
 
 
-.banner{
+.banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
@@ -93,26 +100,31 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.banner-heading h1{
+
+.banner-heading h1 {
     color: var(--primary-color);
     font-size: 3.25rem;
     margin-bottom: 1rem;
 }
-.banner-heading a{
+
+.banner-heading a {
     color: white;
     text-decoration: none;
     background-color: #E02C6D;
     padding: 10px 20px;
     border-radius: 41px;
 }
-.right-arrow-span{
+
+.right-arrow-span {
     margin-left: 10px;
 }
-.banner-heading p{
+
+.banner-heading p {
     font-size: 1rem;
     margin-bottom: 2rem;
 }
-.banner-image{
+
+.banner-image {
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +134,7 @@ header{
 /* banner style end */
 /* company style start */
 
-.company{
+.company {
     display: flex;
     justify-content: space-between;
     gap: 60px;
@@ -136,17 +148,19 @@ header{
 /* company style end */
 /* collection style start */
 
-.collection{
+.collection {
     max-width: 1550px;
     margin: 0 auto;
 }
-.collection > h3{
+
+.collection>h3 {
     font-size: 1.75rem;
     text-align: center;
     margin: 20px 0;
     color: var(--primary-color);
 }
-.collection .collection-cards{
+
+.collection .collection-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
@@ -159,47 +173,131 @@ header{
     margin: 0 auto;
     position: relative;
 }
-.collection-cards > p{
+
+.collection-cards>p {
     color: rgba(224, 44, 109, 0.87);
     font-size: 1rem;
     position: absolute;
     right: 40px;
     bottom: -55px;
 }
-.collection-cards p > span{
+
+.collection-cards p>span {
     margin-left: 10px;
 }
-.card{
+
+.card {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     padding: 20px;
     max-width: 630px;
     border-radius: 5px;
 }
-.card img{
+
+.card img {
     width: 100%;
 }
-.collection-cards .card .card-content{
+
+.collection-cards .card .card-content {
     text-align: left;
 }
-.card > h3{
+
+.card>h3 {
     font-size: 1.75rem;
     font-family: "Poppins", sans-serif;
     line-height: 40px;
     font-weight: 500;
 }
-.card > h4{
+
+.card>h4 {
     font-size: 1.5rem;
     line-height: 150%;
     font-weight: 400;
     font-family: "Inter", sans-serif;
     color: rgba(0, 0, 0, 0.87);
 }
-.card > p{
+
+.card>p {
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 1rem;
     color: #787885;
     line-height: 143%;
-    letter-spacing: 1.8;
 }
+
 /* collection style end */
+/* fetures style start */
+
+.features {
+    width: 90%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.features-content {
+    padding: 0 50px;
+}
+
+.features-content h3 {
+    font-size: 1.8rem;
+    color: #0A0826;
+}
+
+.features-content p {
+    font-size: 1rem;
+    color: #6C6C6C;
+    line-height: 28px;
+}
+
+.features-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.features-content a>span {
+    margin-left: 10px;
+}
+
+/* fetures style ends */
+/* footer style start */
+
+footer {
+    background-color: #0a0826;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.footer-content>p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    color: #D9DBE1;
+}
+.icons{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.icons > i{
+    background-color: #22213c;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* footer style ends */
